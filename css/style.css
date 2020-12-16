@@ -1,7 +1,42 @@
+a:hover {
+  text-decoration: none;
+}
+
 .header {
   height: 800px;
   background: #CC4141;
   border-radius: 0px 0px 0px 200px;
+  position: relative;
+}
+
+.header .l {
+  position: absolute;
+  top: 0;
+}
+
+.header .l1 {
+  background: url("../images/Group 25.png");
+  background-size: cover;
+  width: 336px;
+  height: 281px;
+}
+
+.header .l2 {
+  background: url("../images/Group 26.png");
+  background-size: cover;
+  width: 362px;
+  height: 710px;
+  top: 30%;
+  right: 0px;
+}
+
+.header .l3 {
+  background: url("../images/Oval1.png");
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+  left: 190px;
+  top: 60%;
 }
 
 .header .top {
@@ -36,6 +71,7 @@
 }
 
 .header .moreBtn {
+  display: block;
   width: 200px;
   height: 60px;
   line-height: 60px;
@@ -54,13 +90,13 @@
   width: 25px;
 }
 
-.block1 {
+.tagline {
   margin-top: 61px;
   position: relative;
   overflow: hidden;
 }
 
-.block1::before {
+.tagline::before {
   content: "";
   width: 300px;
   height: 300px;
@@ -72,7 +108,7 @@
   bottom: 0px;
 }
 
-.block1 h2 {
+.tagline h2 {
   font-size: 21px;
   color: #000000;
   line-height: 40px;
@@ -80,27 +116,27 @@
   text-align: center;
 }
 
-.block1 .video {
+.tagline .video {
   width: 100%;
   height: 640px;
 }
 
-.block1 .tip {
+.tagline .tip {
   margin-left: 100px;
   margin-top: 10px;
 }
 
-.block2 {
+.github {
   margin-top: 70px;
 }
 
-.block2 .left {
+.github .left {
   font-size: 52px;
   color: #000000;
   line-height: 78px;
 }
 
-.block2 .right .btns {
+.github .right .btns {
   display: block;
   width: 200px;
   height: 60px;
@@ -114,13 +150,13 @@
   margin-top: 45px;
 }
 
-.block3 {
+.features {
   margin-top: 103px;
   position: relative;
   overflow: hidden;
 }
 
-.block3::before {
+.features::before {
   content: "";
   width: 300px;
   height: 300px;
@@ -132,15 +168,15 @@
   bottom: 140px;
 }
 
-.block3 .list {
+.features .list {
   margin-top: 104px;
 }
 
-.block3 .item {
+.features .item {
   margin-bottom: 97px;
 }
 
-.block3 .item .tit {
+.features .item .tit {
   font-size: 24px;
   color: #000000;
   line-height: 29px;
@@ -148,7 +184,7 @@
   margin-top: 26px;
 }
 
-.block3 .item .desc {
+.features .item .desc {
   font-size: 18px;
   color: #999999;
   line-height: 28px;
@@ -162,10 +198,14 @@
   position: relative;
 }
 
-.comLgTit::before {
+.comLgTit span {
+  position: relative;
+}
+
+.comLgTit span::before {
   content: "";
   position: absolute;
-  width: 215px;
+  width: 100%;
   height: 14px;
   background: #CC4141;
   top: 48px;
@@ -179,30 +219,34 @@
   line-height: .9;
 }
 
-.comLgTit2::before {
+.comLgTit2 span {
+  position: relative;
+}
+
+.comLgTit2 span::before {
   content: "";
   position: absolute;
-  width: 215px;
+  width: 100%;
   height: 14px;
   background: #CC4141;
   bottom: 0px;
   z-index: -1;
 }
 
-.block4 {
+.example {
   margin-bottom: 103px;
   position: relative;
   overflow: hidden;
 }
 
-.block4 .desc {
+.example .desc {
   font-size: 20px;
   color: #999999;
   line-height: 34px;
   margin-top: 30px;
 }
 
-.block4 .btns {
+.example .btns {
   display: block;
   width: 200px;
   height: 60px;
@@ -239,12 +283,12 @@
   left: -160px;
 }
 
-.block5 {
+.faq {
   position: relative;
   overflow: hidden;
 }
 
-.block5::before {
+.faq::before {
   content: "";
   width: 300px;
   height: 300px;
@@ -256,7 +300,7 @@
   border-radius: 300px;
 }
 
-.block5 .lgTit {
+.faq .lgTit {
   font-size: 52px;
   color: #000000;
   line-height: 78px;
@@ -266,34 +310,39 @@
   width: 100%;
 }
 
-.block5 .lgTit::before {
+.faq .lgTit span {
+  position: relative;
+}
+
+.faq .lgTit span::before {
   content: "";
   position: absolute;
   top: 55px;
-  width: 340px;
+  width: 100%;
   height: 14px;
   background: #CC4141;
   z-index: -2;
 }
 
-.block5 .list {
+.faq .list {
   margin-top: 70px;
   position: relative;
   z-index: 5;
 }
 
-.block5 .list::before {
+.faq .list::before {
   content: "";
   position: absolute;
   width: 239px;
   height: 72px;
   background: url("../images/Combined Shape.png");
+  background-size: 100% 100%;
   z-index: 0;
   top: -42px;
   left: -32px;
 }
 
-.block5 .list .item {
+.faq .list .item {
   padding: 40px;
   background: #FFFFFF;
   box-shadow: 0px 20px 40px 0px rgba(3, 0, 77, 0.04);
@@ -303,18 +352,18 @@
   z-index: 3;
 }
 
-.block5 .list .item:last-child {
+.faq .list .item:last-child {
   margin-bottom: 0;
 }
 
-.block5 .list .item .tit {
+.faq .list .item .tit {
   font-size: 20px;
   color: #000000;
   line-height: 24px;
   margin-bottom: 15px;
 }
 
-.block5 .list .item .desc {
+.faq .list .item .desc {
   font-size: 18px;
   color: #999999;
   line-height: 32px;
@@ -325,6 +374,29 @@
   background: #333333;
   margin-top: 130px;
   padding-top: 76px;
+  position: relative;
+}
+
+.footer .l {
+  position: absolute;
+}
+
+.footer .l4 {
+  background: url(../images/Oval.png);
+  background-size: cover;
+  width: 130px;
+  height: 420px;
+  top: -200px;
+  left: -11px;
+}
+
+.footer .l5 {
+  background: url("../images/Group 24.png");
+  background-size: cover;
+  width: 287px;
+  height: 315px;
+  right: 0;
+  bottom: 0;
 }
 
 .footer .ftLogo {
@@ -362,8 +434,11 @@
   text-align: right;
 }
 
-@media screen and (max-width: 450px) {
-  .block1::before, .block3::before, .circle1::before, .circle2::before, .block5::before {
+@media screen and (max-width: 768px) {
+  .l {
+    display: none;
+  }
+  .tagline::before, .features::before, .circle1::before, .circle2::before, .faq::before {
     width: 0;
     height: 0;
   }
@@ -375,6 +450,9 @@
   .header {
     height: auto;
     border-radius: 0;
+  }
+  .header .top {
+    text-align: center;
   }
   .header .lgTit {
     margin-top: 40px;
@@ -409,40 +487,44 @@
   .comLgTit2 {
     font-size: 40px;
   }
-  .block5 .lgTit {
+  .faq .lgTit {
     font-size: 40px;
   }
-  .block1 {
+  .tagline {
     width: 100%;
     height: 376px;
   }
-  .block1 video,
-  .block1 iframe {
+  .tagline video,
+  .tagline iframe {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
-  .block2 .left {
+  .github .left {
     font-size: 40px;
     color: #000000;
     line-height: 60px;
     text-align: center;
     word-break: break-all;
   }
-  .block2 .right .btns {
+  .github .right .btns {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .block3 {
+  .features {
     margin-top: 20px;
   }
-  .block3 .item {
+  .features .item {
     margin-bottom: 62px;
   }
-  .block3 .list {
+  .features .list {
     margin-top: 38px;
   }
-  .block4 .btns {
+  .example .btns {
+    margin-top: 8px;
+  }
+  .example .btns {
     margin-top: 30px;
   }
 }

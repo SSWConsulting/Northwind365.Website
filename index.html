@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Northwind365</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="header">
+        <div class="l l1"></div>
+        <div class="l l2"></div>
+        <div class="l l3"></div>
         <div class="container">
             <div class="row top">
                 <div class="col-lg-6 col-md-6">
@@ -19,7 +22,7 @@
                 <div class="col-lg-6 col-md-6 right">
                     
                     <span>brought to you by</span>
-                    <a href="#"><img src="images/SSWLogo.png" alt="" class="img-fluid"></a>
+                    <a href="https://www.ssw.com.au"><img src="images/SSWLogo.png" alt="" class="img-fluid"></a>
                     <img src="images/ENTERPRISE SOFTWARE.png" alt="" class="img-fluid">
                 </div>
             </div>
@@ -27,7 +30,7 @@
             <div class="lgTit">We’ve revived the Northwind Traders database from the Access days!</div>
             <div class="desc">Northwind Traders is a sample application built using ASP.NET Core and Entity Framework
                 Core. </div>
-            <div class="moreBtn mx-auto">Learn More</div>
+            <a class="moreBtn mx-auto" href="#video">Learn More</a>
 
             <div class="down text-center">
                 <img src="images/down.png" alt="" class="img-fluid">
@@ -35,11 +38,11 @@
         </div>
     </div>
 
-        <div class="block1">
+        <div class="tagline">
             <div class="container">
                 <h2>The architecture and design of the project is explained in the video:</h2>
 
-            <div class="video">
+            <div class="video"  id="video">
                 <!-- <img src="images/video.jpeg" alt=""> -->
                 <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/_lwCVE_XgqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -47,25 +50,25 @@
             </div>
         </div>
 
-        <div class="block2">
+        <div class="github">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 left">The code can be found in our GitHub repo:</div>
             <div class="col-lg-6 col-md-6 right">
-                <a href="#" class="btns">View Github</a>
+                <a href="https://github.com/SSWConsulting/Northwind365" class="btns">View Github</a>
             </div>
                 </div>
             </div>
         </div>
 
-        <div class="block3">
+        <div class="features">
             <div class="container">
-                <div class="comLgTit">Features</div>
+                <div class="comLgTit"><span>Features</span></div>
 
             <div class="row list">
                 <div class="col-lg-6 col-md-6">
                     <div class="row item">
-                        <div class="col-lg-2 col-3"><img src="images/Group 18.png" alt=""></div>
+                        <div class="col-lg-2 col-3"><img src="images/icon_thumb.png" alt=""></div>
                         <div class="col-lg-10 col-9">
                             <div class="tit">Demonstrates Clean Architeture</div>
                             <div class="desc">Northwind365 is a sample application beautifully demonstartes Clean
@@ -75,7 +78,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="row item">
-                        <div class="col-lg-2 col-3"><img src="images/Group 19.png" alt=""></div>
+                        <div class="col-lg-2 col-3"><img src="images/icon_square.png" alt=""></div>
                         <div class="col-lg-10 col-9">
                             <div class="tit">Extensible</div>
                             <div class="desc">Because its built with CA, technologies at different layers can be changed out to suit your needs </div>
@@ -84,7 +87,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="row item">
-                        <div class="col-lg-2 col-3"><img src="images/Group 21.png" alt=""></div>
+                        <div class="col-lg-2 col-3"><img src="images/icon_globe.png" alt=""></div>
                         <div class="col-lg-10 col-9">
                             <div class="tit">Community</div>
                             <div class="desc">As OSS, benefits from contributions from the developer community</div>
@@ -93,7 +96,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="row item">
-                        <div class="col-lg-2 col-3"><img src="images/Group 20.png" alt=""></div>
+                        <div class="col-lg-2 col-3"><img src="images/icon_book.png" alt=""></div>
                         <div class="col-lg-10 col-9">
                             <div class="tit">Familiar Context</div>
                             <div class="desc">Based on the old Northwind Traders database so you can see how the modernized approach compares</div>
@@ -104,23 +107,26 @@
             </div>
         </div>
 
-        <div class="block4 circle1">
+        <div class="example circle1">
            <div class="container">
                <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="comLgTit2">Good <br> Example</div>
-                    <div class="desc">Swagger gives you a nice UI automatically generated on top of your WebAPI methods
-                    </div>
-                    <a href="#" class="btns">See Our Rules</a>
+                <div class="col-lg-6 col-md-6 d-block d-sm-none">
+                    <img src="images/Group 13.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-6 col-md-6">
+                    <div class="comLgTit2"><span>Good <br> Example</span></div>
+                    <div class="desc">Swagger gives you a nice UI automatically generated on top of your WebAPI methods
+                    </div>
+                    <a href="https://rules.ssw.com.au/rules-to-better-web-api-rest" class="btns">See Our Rules</a>
+                </div>
+                <div class="col-lg-6 col-md-6 d-none d-sm-block">
                     <img src="images/Group 13.png" alt="" class="img-fluid">
                 </div>
                </div>
            </div>
         </div>
 
-        <div class="block4 circle2">
+        <div class="example circle2">
            <div class="container">
                <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -128,19 +134,19 @@
                 </div>
     
                 <div class="col-lg-6 col-md-6">
-                    <div class="comLgTit2">Good <br> Example</div>
+                    <div class="comLgTit2"><span>Good <br> Example</span></div>
                     <div class="desc">Clients can write queries and specify which fields they want the query to return
                     </div>
-                    <a href="#" class="btns">See Our Rules</a>
+                    <a href="https://rules.ssw.com.au/rules-to-better-web-api-graphql" class="btns">See Our Rules</a>
                 </div>
                </div>
            </div>
         </div>
 
-        <div class="block5">
+        <div class="faq">
            <div class="container">
             <div class="lgTit">
-                The questions they <br>ask us most often
+                <span>The questions</span> they <br>ask us most often
             </div>
             <div class="list">
                 <div class="item">
@@ -175,6 +181,8 @@
         </div>
 
     <div class="footer">
+        <div class="l l4"></div>
+        <div class="l l5"></div>
         <div class="container">
             <div class="ftLogo"><img src="images/Northwind365 logo(1).png" alt="" class="img-fluid"></div>
             <div class="list">
@@ -195,9 +203,9 @@
 
             <div class="row bot">
                 <div class="col-lg-6 col-md-6 imgs">
-                    <img src="images/Group 7.png" alt="">
-                    <img src="images/Group 22.png" alt="">
-                    <img src="images/Group 23.png" alt="">
+                    <a href="#" ><img src="images/icon_Instagram.png" alt=""></a>
+                    <a href="#" ><img src="images/icon_twitter.png" alt=""></a>
+                     <a href="#" ><img src="images/icon_youtube.png" alt=""></a>
                 </div>
                 <div class="col-lg-6 col-md-6 right">© Copyright 2020 - SSW</div>
             </div>

@@ -1,8 +1,39 @@
+a:hover{
+    text-decoration: none;
+}
 .header {
 
     height: 800px;
     background: #CC4141;
     border-radius: 0px 0px 0px 200px;
+    position: relative;
+
+    .l{
+        position: absolute;
+        top: 0;
+    }
+    .l1{
+        background: url("../images/Group 25.png");
+        background-size: cover;
+        width: 336px;
+        height: 281px;
+    }
+    .l2{
+        background: url("../images/Group 26.png");
+        background-size: cover;
+        width: 362px;
+        height: 710px;
+        top: 30%;
+        right: 0px;
+    }
+    .l3{
+        background: url("../images/Oval (1).png");
+        background-size: cover;
+        width: 160px;
+        height: 160px;
+        left: 190px;
+        top: 60%;
+    }
 
     .top {
         padding-top: 46px;
@@ -36,6 +67,7 @@
     }
 
     .moreBtn {
+        display: block;
         width: 200px;
         height: 60px;
         line-height: 60px;
@@ -169,16 +201,19 @@
     color: #000000;
     line-height: 78px;
     position: relative;
-
-    &::before {
-        content: "";
-        position: absolute;
-        width: 215px;
-        height: 14px;
-        background: #CC4141;
-        top: 48px;
-        z-index: -1;
+    span{
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 14px;
+            background: #CC4141;
+            top: 48px;
+            z-index: -1;
+        }
     }
+    
 }
 
 .comLgTit2 {
@@ -187,15 +222,20 @@
     position: relative;
     line-height: .9;
 
-    &::before {
-        content: "";
-        position: absolute;
-        width: 215px;
-        height: 14px;
-        background: #CC4141;
-        bottom: 0px;
-        z-index: -1;
+    span{
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 14px;
+            background: #CC4141;
+            bottom: 0px;
+            z-index: -1;
+        }
     }
+
+   
 }
 
 .block4 {
@@ -277,15 +317,20 @@
         text-align: center;
         width: 100%;
 
-        &::before {
-            content: "";
-            position: absolute;
-            top: 55px;
-            width: 340px;
-            height: 14px;
-            background: #CC4141;
-            z-index: -2;
+        span{
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 55px;
+                width: 100%;
+                height: 14px;
+                background: #CC4141;
+                z-index: -2;
+            }
         }
+
+
     }
 
     .list {
@@ -299,6 +344,7 @@
             width: 239px;
             height: 72px;
             background: url("../images/Combined Shape.png");
+            background-size: 100% 100%;
             z-index: 0;
             top: -42px;
             left: -32px;
@@ -339,6 +385,27 @@
     background: #333333;
     margin-top: 130px;
     padding-top: 76px;
+    position: relative;
+
+    .l{
+        position: absolute;
+    }
+
+    .l4{
+        background: url(../images/Oval.png);
+        background-size: cover;
+        width: 130px;
+        height: 420px;
+        top: -200px;
+        left: -11px;
+    }
+    .l5{
+        background: url("../images/Group 24.png");
+        background-size: cover;
+        width: 287px;
+        height: 315px;
+        right: 0;bottom: 0;
+    }
 
     .ftLogo {
         margin-bottom: 46px;
@@ -380,7 +447,10 @@
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:768px) {
+    .l{
+        display: none;
+    }
     .block1::before,.block3::before,.circle1::before,.circle2::before,.block5::before{
         width: 0;
         height: 0;
@@ -395,6 +465,10 @@
     .header {
         height: auto;
         border-radius: 0;
+
+        .top{
+            text-align: center;
+        }
 
         .lgTit {
             margin-top: 40px;
@@ -457,6 +531,7 @@
         iframe {
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
     }
 
@@ -491,6 +566,9 @@
     }
 
     .block4 {
+        .btns{
+            margin-top: 8px;
+        }
         .btns {
             margin-top: 30px;
         }
