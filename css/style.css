@@ -1,530 +1,583 @@
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .header {
-  height: 800px;
-  background: #CC4141;
-  border-radius: 0px 0px 0px 200px;
-  position: relative;
+    height: 800px;
+    background: #CC4141;
+    border-radius: 0px 0px 0px 200px;
+    position: relative;
 }
 
 .header .l {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
 
 .header .l1 {
-  background: url("../images/Group 25.png");
-  background-size: cover;
-  width: 336px;
-  height: 281px;
+    background: url("../images/Group 25.png");
+    background-size: cover;
+    width: 336px;
+    height: 281px;
 }
 
 .header .l2 {
-  background: url("../images/Group 26.png");
-  background-size: cover;
-  width: 362px;
-  height: 710px;
-  top: 30%;
-  right: 0px;
+    background: url("../images/Group 26.png");
+    background-size: cover;
+    width: 362px;
+    height: 710px;
+    top: 30%;
+    right: 0px;
 }
 
 .header .l3 {
-  background: url("../images/Oval1.png");
-  background-size: cover;
-  width: 160px;
-  height: 160px;
-  left: 190px;
-  top: 60%;
+    background: url("../images/Oval1.png");
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    left: 190px;
+    top: 60%;
 }
 
 .header .top {
-  padding-top: 46px;
+    padding-top: 46px;
 }
 
 .header .top .right {
-  text-align: right;
-  font-size: 16px;
-  color: #FFFFFF;
+    text-align: right;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 .header .top .right span {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .header .lgTit {
-  font-size: 58px;
-  color: #FFFFFF;
-  line-height: 78px;
-  text-align: center;
-  margin-top: 114px;
+    font-size: 58px;
+    color: #FFFFFF;
+    line-height: 78px;
+    text-align: center;
+    margin-top: 114px;
 }
 
 .header .desc {
-  font-size: 29px;
-  color: #FFFFFF;
-  line-height: 40px;
-  margin-bottom: 46px;
-  text-align: center;
-  margin-top: 35px;
+    font-size: 29px;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin-bottom: 46px;
+    text-align: center;
+    margin-top: 35px;
 }
 
 .header .moreBtn {
-  display: block;
-  width: 200px;
-  height: 60px;
-  line-height: 60px;
-  background: #333333;
-  border-radius: 10px;
-  font-size: 18px;
-  color: #FFFFFF;
-  text-align: center;
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    background: #333333;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .header .down {
-  margin-top: 180px;
+    margin-top: 180px;
 }
 
 .header .down img {
-  width: 25px;
+    width: 25px;
 }
 
 .tagline {
-  margin-top: 61px;
-  position: relative;
-  overflow: hidden;
+    margin-top: 61px;
+    position: relative;
+    overflow: hidden;
 }
 
 .tagline::before {
-  content: "";
-  width: 300px;
-  height: 300px;
-  background: #CC4141;
-  opacity: 0.04;
-  border-radius: 300px;
-  position: absolute;
-  right: -150px;
-  bottom: 0px;
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: #CC4141;
+    opacity: 0.04;
+    border-radius: 300px;
+    position: absolute;
+    right: -150px;
+    bottom: 0px;
 }
 
 .tagline h2 {
-  font-size: 21px;
-  color: #000000;
-  line-height: 40px;
-  margin-bottom: 22px;
-  text-align: center;
+    font-size: 21px;
+    color: #000000;
+    line-height: 40px;
+    margin-bottom: 22px;
+    text-align: center;
 }
 
 .tagline .video {
-  width: 100%;
-  height: 640px;
+    width: 100%;
+    height: 640px;
 }
 
 .tagline .tip {
-  margin-left: 100px;
-  margin-top: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 .github {
-  margin-top: 70px;
+    margin-top: 70px;
 }
 
 .github .left {
-  font-size: 52px;
-  color: #000000;
-  line-height: 78px;
+    font-size: 52px;
+    color: #000000;
+    line-height: 78px;
 }
 
 .github .right .btns {
-  display: block;
-  width: 200px;
-  height: 60px;
-  background: #CC4141;
-  border-radius: 10px;
-  line-height: 60px;
-  text-align: center;
-  font-size: 18px;
-  color: #FFFFFF;
-  margin-left: auto;
-  margin-top: 45px;
+    display: block;
+    width: 200px;
+    height: 60px;
+    background: #CC4141;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-top: 45px;
+}
+
+.github .left .btns {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background: #CC4141;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    /*margin-left: auto;*/
+    margin-top: 45px;
+}
+
+.github .left .btns-secondary {
+    display: block;
+    width: 200px;
+    height: 60px;
+    color: #CC4141;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #CC4141;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    /*margin-left: auto;*/
+    margin-top: 45px;
 }
 
 .features {
-  margin-top: 103px;
-  position: relative;
-  overflow: hidden;
+    margin-top: 103px;
+    position: relative;
+    overflow: hidden;
 }
 
 .features::before {
-  content: "";
-  width: 300px;
-  height: 300px;
-  background: #CC4141;
-  opacity: 0.04;
-  border-radius: 300px;
-  position: absolute;
-  left: -150px;
-  bottom: 140px;
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: #CC4141;
+    opacity: 0.04;
+    border-radius: 300px;
+    position: absolute;
+    left: -150px;
+    bottom: 140px;
 }
 
 .features .list {
-  margin-top: 104px;
+    margin-top: 104px;
 }
 
 .features .item {
-  margin-bottom: 97px;
+    margin-bottom: 97px;
 }
 
 .features .item .tit {
-  font-size: 24px;
-  color: #000000;
-  line-height: 29px;
-  margin-bottom: 17px;
-  margin-top: 26px;
+    font-size: 24px;
+    color: #000000;
+    line-height: 29px;
+    margin-bottom: 17px;
+    margin-top: 26px;
 }
 
 .features .item .desc {
-  font-size: 18px;
-  color: #999999;
-  line-height: 28px;
+    font-size: 18px;
+    color: #999999;
+    line-height: 28px;
 }
 
 .comLgTit {
-  text-align: center;
-  font-size: 52px;
-  color: #000000;
-  line-height: 78px;
-  position: relative;
+    text-align: center;
+    font-size: 52px;
+    color: #000000;
+    line-height: 78px;
+    position: relative;
 }
 
 .comLgTit span {
-  position: relative;
+    position: relative;
 }
 
 .comLgTit span::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 14px;
-  background: #CC4141;
-  top: 48px;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    background: #CC4141;
+    top: 48px;
+    z-index: -1;
 }
 
 .comLgTit2 {
-  font-size: 52px;
-  color: #000000;
-  position: relative;
-  line-height: .9;
+    font-size: 52px;
+    color: #000000;
+    position: relative;
+    line-height: .9;
 }
 
 .comLgTit2 span {
-  position: relative;
+    position: relative;
 }
 
 .comLgTit2 span::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 14px;
-  background: #CC4141;
-  bottom: 0px;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    background: #CC4141;
+    bottom: 0px;
+    z-index: -1;
 }
 
 .example {
-  margin-bottom: 103px;
-  position: relative;
-  overflow: hidden;
+    margin-bottom: 103px;
+    position: relative;
+    overflow: hidden;
 }
 
 .example .desc {
-  font-size: 20px;
-  color: #999999;
-  line-height: 34px;
-  margin-top: 30px;
+    font-size: 20px;
+    color: #999999;
+    line-height: 34px;
+    margin-top: 30px;
 }
 
 .example .btns {
-  display: block;
-  width: 300px;
-  height: 60px;
-  background: #CC4141;
-  border-radius: 10px;
-  line-height: 60px;
-  text-align: center;
-  font-size: 18px;
-  color: #FFFFFF;
-  margin-top: 130px;
+    display: block;
+    width: 300px;
+    height: 60px;
+    background: #CC4141;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 130px;
 }
 
 .circle1::before {
-  content: "";
-  width: 360px;
-  height: 360px;
-  border-radius: 360px;
-  background: #CC4141;
-  opacity: 0.04;
-  position: absolute;
-  bottom: 0;
-  right: -100px;
+    content: "";
+    width: 360px;
+    height: 360px;
+    border-radius: 360px;
+    background: #CC4141;
+    opacity: 0.04;
+    position: absolute;
+    bottom: 0;
+    right: -100px;
 }
 
 .circle2::before {
-  content: "";
-  width: 360px;
-  height: 360px;
-  border-radius: 360px;
-  background: #CC4141;
-  opacity: 0.04;
-  position: absolute;
-  bottom: 0;
-  left: -160px;
+    content: "";
+    width: 360px;
+    height: 360px;
+    border-radius: 360px;
+    background: #CC4141;
+    opacity: 0.04;
+    position: absolute;
+    bottom: 0;
+    left: -160px;
 }
 
 .faq {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
 }
 
 .faq::before {
-  content: "";
-  width: 300px;
-  height: 300px;
-  background: #CC4141;
-  opacity: 0.04;
-  position: absolute;
-  right: -130px;
-  bottom: 0;
-  border-radius: 300px;
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: #CC4141;
+    opacity: 0.04;
+    position: absolute;
+    right: -130px;
+    bottom: 0;
+    border-radius: 300px;
 }
 
 .faq .lgTit {
-  font-size: 52px;
-  color: #000000;
-  line-height: 78px;
-  position: relative;
-  z-index: 5;
-  text-align: center;
-  width: 100%;
+    font-size: 52px;
+    color: #000000;
+    line-height: 78px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    width: 100%;
 }
 
 .faq .lgTit span {
-  position: relative;
+    position: relative;
 }
 
 .faq .lgTit span::before {
-  content: "";
-  position: absolute;
-  top: 55px;
-  width: 100%;
-  height: 14px;
-  background: #CC4141;
-  z-index: -2;
+    content: "";
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    height: 14px;
+    background: #CC4141;
+    z-index: -2;
 }
 
 .faq .list {
-  margin-top: 70px;
-  position: relative;
-  z-index: 5;
+    margin-top: 70px;
+    position: relative;
+    z-index: 5;
 }
 
 .faq .list::before {
-  content: "";
-  position: absolute;
-  width: 239px;
-  height: 72px;
-  background: url("../images/Combined Shape.png");
-  background-size: 100% 100%;
-  z-index: 0;
-  top: -42px;
-  left: -32px;
+    content: "";
+    position: absolute;
+    width: 239px;
+    height: 72px;
+    background: url("../images/Combined Shape.png");
+    background-size: 100% 100%;
+    z-index: 0;
+    top: -42px;
+    left: -32px;
 }
 
 .faq .list .item {
-  padding: 40px;
-  background: #FFFFFF;
-  box-shadow: 0px 20px 40px 0px rgba(3, 0, 77, 0.04);
-  border-radius: 12px;
-  margin-bottom: 25px;
-  position: relative;
-  z-index: 3;
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 3;
 }
 
 .faq .list .item:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .faq .list .item .tit {
-  font-size: 20px;
-  color: #000000;
-  line-height: 24px;
-  margin-bottom: 15px;
+    font-size: 20px;
+    color: #000000;
+    line-height: 24px;
+    margin-bottom: 15px;
 }
 
 .faq .list .item .desc {
-  font-size: 18px;
-  color: #999999;
-  line-height: 32px;
+    font-size: 18px;
+    color: #999999;
+    line-height: 32px;
 }
 
 .footer {
-  width: 100%;
-  background: #333333;
-  margin-top: 130px;
-  padding-top: 76px;
-  position: relative;
+    width: 100%;
+    background: #333333;
+    margin-top: 130px;
+    padding-top: 76px;
+    position: relative;
 }
 
 .footer .l {
-  position: absolute;
+    position: absolute;
 }
 
 .footer .l4 {
-  background: url(../images/Oval.png);
-  background-size: cover;
-  width: 130px;
-  height: 420px;
-  top: -200px;
-  left: -11px;
+    background: url(../images/Oval.png);
+    background-size: cover;
+    width: 130px;
+    height: 420px;
+    top: -200px;
+    left: -11px;
 }
 
 .footer .l5 {
-  background: url("../images/Group 24.png");
-  background-size: cover;
-  width: 287px;
-  height: 315px;
-  right: 0;
-  bottom: 0;
+    background: url("../images/Group 24.png");
+    background-size: cover;
+    width: 287px;
+    height: 315px;
+    right: 0;
+    bottom: 0;
 }
 
 .footer .ftLogo {
-  margin-bottom: 46px;
+    margin-bottom: 46px;
 }
 
 .footer .list .item {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .footer .list .item span {
-  margin-left: 20px;
-  font-size: 16px;
-  color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 .footer .line {
-  width: 100%;
-  height: 1px;
-  background: #FFFFFF;
-  opacity: 0.12;
-  margin-bottom: 31px;
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF;
+    opacity: 0.12;
+    margin-bottom: 31px;
 }
 
 .footer .bot .imgs {
-  padding-bottom: 22px;
+    padding-bottom: 22px;
 }
 
 .footer .bot .imgs img {
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 .footer .bot .right {
-  color: #FFFFFF;
-  text-align: right;
+    color: #FFFFFF;
+    text-align: right;
 }
 
 @media screen and (max-width: 768px) {
-  .l {
-    display: none;
-  }
-  .tagline::before, .features::before, .circle1::before, .circle2::before, .faq::before {
-    width: 0;
-    height: 0;
-  }
-  div,
-  p {
-    word-wrap: break-word;
-    word-break: break-all;
-  }
-  .header {
-    height: auto;
-    border-radius: 0;
-  }
-  .header .top {
-    text-align: center;
-  }
-  .header .lgTit {
-    margin-top: 40px;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 50px;
-  }
-  .header .desc {
-    font-size: 20px;
-  }
-  .header .top .right {
-    text-align: center;
-  }
-  .header .top .right span {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .header .down {
-    margin-top: 30px;
-  }
-  .footer {
-    margin-top: 80px;
-    text-align: center;
-  }
-  .footer .bot .right {
-    text-align: center;
-    padding: 40px 0 50px;
-  }
-  .comLgTit {
-    font-size: 40px;
-  }
-  .comLgTit2 {
-    font-size: 40px;
-  }
-  .faq .lgTit {
-    font-size: 40px;
-  }
-  .tagline {
-    width: 100%;
-    height: 376px;
-  }
-  .tagline video,
-  .tagline iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .github .left {
-    font-size: 40px;
-    color: #000000;
-    line-height: 60px;
-    text-align: center;
-    word-break: break-all;
-  }
-  .github .right .btns {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .features {
-    margin-top: 20px;
-  }
-  .features .item {
-    margin-bottom: 62px;
-  }
-  .features .list {
-    margin-top: 38px;
-  }
-  .example .btns {
-    margin-top: 8px;
-  }
-  .example .btns {
-    margin-top: 30px;
-  }
+    .l {
+        display: none;
+    }
+
+    .tagline::before, .features::before, .circle1::before, .circle2::before, .faq::before {
+        width: 0;
+        height: 0;
+    }
+
+    div,
+    p {
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .header {
+        height: auto;
+        border-radius: 0;
+    }
+
+    .header .top {
+        text-align: center;
+    }
+
+    .header .lgTit {
+        margin-top: 40px;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    .header .desc {
+        font-size: 20px;
+    }
+
+    .header .top .right {
+        text-align: center;
+    }
+
+    .header .top .right span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .header .down {
+        margin-top: 30px;
+    }
+
+    .footer {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .footer .bot .right {
+        text-align: center;
+        padding: 40px 0 50px;
+    }
+
+    .comLgTit {
+        font-size: 40px;
+    }
+
+    .comLgTit2 {
+        font-size: 40px;
+    }
+
+    .faq .lgTit {
+        font-size: 40px;
+    }
+
+    .tagline {
+        width: 100%;
+        height: 376px;
+    }
+
+    .tagline video,
+    .tagline iframe {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .github .left {
+        font-size: 40px;
+        color: #000000;
+        line-height: 60px;
+        text-align: center;
+        word-break: break-all;
+    }
+
+    .github .right .btns {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features {
+        margin-top: 20px;
+    }
+
+    .features .item {
+        margin-bottom: 62px;
+    }
+
+    .features .list {
+        margin-top: 38px;
+    }
+
+    .example .btns {
+        margin-top: 8px;
+    }
+
+    .example .btns {
+        margin-top: 30px;
+    }
 }
