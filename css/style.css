@@ -1,5 +1,9 @@
+a {
+    text-decoration: underline;
+    transition-duration: .3s;
+}
 a:hover {
-    text-decoration: none;
+    color: #CC4141;
 }
 
 .header {
