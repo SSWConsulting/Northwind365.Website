@@ -1,5 +1,6 @@
 a {
     text-decoration: underline;
+    color:inherit;
     transition-duration: .3s;
 }
 a:hover {
@@ -58,20 +59,18 @@ a:hover {
 }
 
 .header .lgTit {
-    font-size: 58px;
+    font-size: 3.5rem;
     color: #FFFFFF;
-    line-height: 78px;
+    line-height: normal;
     text-align: center;
-    margin-top: 114px;
+    margin-top: 4rem;
 }
 
 .header .desc {
-    font-size: 29px;
+    font-size: 2rem;
     color: #FFFFFF;
-    line-height: 40px;
-    margin-bottom: 46px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 2rem;
 }
 
 .header .moreBtn {
@@ -87,7 +86,7 @@ a:hover {
 }
 
 .header .down {
-    margin-top: 180px;
+    margin-top: 8rem;
 }
 
 .header .down img {
@@ -95,9 +94,13 @@ a:hover {
 }
 
 .tagline {
-    margin-top: 61px;
+    margin-top: 3rem;
     position: relative;
     overflow: hidden;
+}
+
+.content-center {
+    align-content: center;
 }
 
 .tagline::before {
@@ -474,12 +477,6 @@ a:hover {
     .tagline::before, .features::before, .circle1::before, .circle2::before, .faq::before {
         width: 0;
         height: 0;
-    }
-
-    div,
-    p {
-        word-wrap: break-word;
-        word-break: break-all;
     }
 
     .header {
