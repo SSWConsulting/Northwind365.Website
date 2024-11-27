@@ -21,130 +21,14 @@
     <title>Northwind365 - How Enterprise .NET APIs should look using SSW’s Clean Architecture</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="/images/favicon_northwind365.png">
-
-    <style>
-        .wordmark {
-          display: inline-flex;
-          align-items: center;
-          margin-right: 0.5rem;
-
-          :global(svg) {
-            height: 1rem;
-            width: auto;
-            margin-bottom: 0.125rem;
-          }
-        }
-
-        .banner {
-          background: linear-gradient(
-            90deg,
-            white,
-            #f2fdfc 33.3%,
-            #e6faf8 100%
-          );
-          box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.03);
-          border-bottom: 1px solid #d1faf6;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 0.75rem 1rem;
-          font-size: 1rem;
-          position: relative;
-          z-index: 10;
-          line-height: 1.2;
-          flex: 0 1 auto;
-          width: 100%;
-          flex-direction: column;
-
-          :global(a) {
-            text-decoration: underline;
-          }
-
-          :global(em) {
-            font-style: normal;
-            font-weight: bold;
-          }
-        }
-
-        .banner-content {
-          display: flex;
-          align-items: center;
-          margin-top: 0.3rem;
-          margin-bottom: 0.5rem;
-        }
-
-        .banner-content-subscribe {
-          flex-direction: column;
-        }
-
-        .hand-emoji {
-          display: none;
-        }
-
-        @media (min-width: 1024px) {
-          .banner {
-            flex-direction: row;
-            padding-left: 2rem;
-            padding-right: 2.5rem;
-          }
-
-          .hand-emoji {
-            display: block;
-          }
-
-          .banner-content-subscribe {
-            flex-direction: row;
-          }
-
-          .banner-content {
-            margin-bottom: 0;
-          }
-        }
-
-        .actions {
-          flex: 1 0 auto;
-          display: inline-flex;
-          align-items: center;
-          justify-content: flex-end;
-
-          :global(> *) {
-            width: auto;
-          }
-        }
-
-        .link {
-          font-size: 1rem;
-          margin-right: 1rem;
-          :global(svg) {
-            display: none;
-            margin-left: 0.5rem;
-            height: 1em;
-            @media (min-width: 680px) {
-              display: inline-block;
-            }
-          }
-          @media (min-width: 680px) {
-            margin-right: 2rem;
-            white-space: nowrap;
-          }
-        }
-      </style>
-    
+    <link rel="icon" type="image/png" href="/images/favicon_northwind365.png">  
 </head>
 
 <body>
 
-    <div className="banner">
-        <div className="banner-content">
-          <span className="mobile pr-2">
-            Loving Northwind365? ⭐️ us on{' '}
-            <a href="https://github.com/SSWConsulting/Northwind365" target="_blank">
-              GitHub
-            </a>
-          </span>
-        </div>
-      </div>
+    <div class="banner p-2">
+        <span>Loving Northwind365? ⭐️ us on <a href="https://github.com/SSWConsulting/Northwind365" target="_blank">GitHub</a></span>
+    </div>
     
 <div class="header">
     <div class="l l1"></div>
@@ -361,11 +245,11 @@
             </div>
             <div class="item">
                 <img src="images/envelope-solid.png" alt="">
-                <span><a href="#" style="color: #CC4141;">info@ssw.com.au</a> </span>
+                <span>info@ssw.com.au</span>
             </div>
             <div class="item">
                 <img src="images/link-solid.png" alt="">
-                <span><a href="https://www.ssw.com.au" target="_blank" style="color: #CC4141;">www.ssw.com.au</a></span>
+                <span><a href="https://www.ssw.com.au" target="_blank">ssw.com.au</a></span>
             </div>
         </div>
         <div class="line d-none d-sm-block"></div>
@@ -376,7 +260,7 @@
                 <a href="https://twitter.com/SSW_TV" target="_blank"><img src="images/icon_twitter.png" alt=""></a>
                 <a href="https://youtube.com/ssw_tv" target="_blank"><img src="images/icon_youtube.png" alt=""></a>
             </div>
-            <div class="col-lg-6 col-md-6 right">© Copyright 2023 - SSW</div>
+            <div class="col-lg-6 col-md-6 right">© Copyright 2024 - SSW</div>
         </div>
     </div>
 </div>
