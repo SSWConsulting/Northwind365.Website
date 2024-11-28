@@ -1,6 +1,6 @@
 a {
     text-decoration: underline;
-    color:inherit;
+    color: inherit;
     transition-duration: .3s;
 }
 a:hover {
@@ -52,10 +52,6 @@ a:hover {
     text-align: right;
     font-size: 16px;
     color: #FFFFFF;
-}
-
-.header .top .right span {
-    margin-right: 20px;
 }
 
 .header .lgTit {
@@ -116,11 +112,8 @@ a:hover {
 }
 
 .tagline h2 {
-    font-size: 21px;
-    color: #000000;
-    line-height: 40px;
-    margin-bottom: 22px;
     text-align: center;
+    margin: 2rem 0 1rem;
 }
 
 .tagline .video {
@@ -143,7 +136,7 @@ a:hover {
     line-height: 78px;
 }
 
-.github .right .btns {
+.github .right .btns, .github .left .btns {
     display: block;
     width: 200px;
     height: 60px;
@@ -153,21 +146,16 @@ a:hover {
     text-align: center;
     font-size: 18px;
     color: #FFFFFF;
-    margin-left: auto;
     margin-top: 45px;
+    text-decoration: none;
 }
 
-.github .left .btns {
-    display: block;
-    width: 200px;
-    height: 60px;
-    background: #CC4141;
-    border-radius: 10px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-top: 45px;
+.github .right .btns {
+    margin-left: auto;
+}
+
+.github .right .btns:hover, .github .left .btns:hover {
+    opacity: .7;
 }
 
 .github .left .btns-secondary {
@@ -185,7 +173,7 @@ a:hover {
 }
 
 .features {
-    margin-top: 103px;
+    margin-top: 5rem;
     position: relative;
     overflow: hidden;
 }
@@ -203,11 +191,11 @@ a:hover {
 }
 
 .features .list {
-    margin-top: 104px;
+    margin-top: 5rem;
 }
 
 .features .item {
-    margin-bottom: 97px;
+    margin-bottom: 5rem;
 }
 
 .features .item .tit {
@@ -551,7 +539,6 @@ a:hover {
         color: #000000;
         line-height: 60px;
         text-align: center;
-        word-break: break-all;
     }
 
     .github .right .btns {
